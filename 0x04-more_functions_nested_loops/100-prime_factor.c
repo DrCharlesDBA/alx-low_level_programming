@@ -2,10 +2,10 @@
 
 /**
  * main - largest prime factorof a number is printed
- * Return: void or 0
+ * Return: a 0
  */
 
-void main(void)
+int main(void)
 {
 	long num = 612852475143;
 	int a;
