@@ -7,7 +7,7 @@
  * Return: nothing
  */
 
-void point_numbers(void)
+void print_numbers(void)
 {
 	int n;
 
