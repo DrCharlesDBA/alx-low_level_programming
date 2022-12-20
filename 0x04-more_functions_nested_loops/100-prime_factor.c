@@ -25,6 +25,6 @@ int main(void)
 				num /= a;
 		}
 	}
-	printf("%ld\n", number);
+	printf("%ld\n", num);
 		return (0);
 	}
