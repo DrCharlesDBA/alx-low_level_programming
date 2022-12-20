@@ -15,16 +15,16 @@ int main(void)
 	{
 		if (num % a == 0)
 		{
-			num / = 2;
+			num /= 2;
 			continue;
 		}
 
 		for (a = 3; a < num / 2; a += 2)
 		{
 			if (num % a == 0)
-				num / = a;
+				num /= a;
 		}
 	}
-	printf("%1d\n", number);
+	printf("%ld\n", number);
 		return (0);
 	}
