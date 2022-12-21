@@ -23,7 +23,7 @@ int _atoi(char *s)
 		{
 			isi = 1;
 			ni = (ni * 10) + (s[a] - '0');
-			c++;
+			a++;
 			}
 		if (isi == 1)
 		{
