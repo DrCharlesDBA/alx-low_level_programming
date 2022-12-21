@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * _strlen - returns string length
@@ -13,6 +12,5 @@ size_t _strlen(const char *str)
 
 	while (*str++)
 		len++;
-
 	return (len);
 }
