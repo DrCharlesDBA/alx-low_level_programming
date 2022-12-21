@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * puts_half - Printshalf of a sting
