@@ -29,7 +29,7 @@ int _atoi(char *s)
 		{
 			break;
 		}
-		c++;
+		a++;
 	}
 	ni *= min;
 	return (ni);
