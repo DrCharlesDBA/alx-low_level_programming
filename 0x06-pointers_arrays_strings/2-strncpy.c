@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strncpy - this function is used to copy a string
  * @dest: this points to the char's destination
@@ -13,7 +14,6 @@ char *_strncpy(char *dest, char *src, int n)
 
 	while (src[i++])
 		src_leng++;
-
 	for (i = 0; src[i] && i < n; i++)
 		dest[i] = src[i];
 
