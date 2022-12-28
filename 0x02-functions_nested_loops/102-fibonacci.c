@@ -10,7 +10,7 @@ int main(void)
 
 	for (n = 0; n < 25; n++)
 {
-	printf("%d, %d", x, y);
+	printf("%ld, %ld", x, y);
 	if (n != 24)
 	{
 		putchar(',');
