@@ -12,10 +12,12 @@
 
 void *_memset(void *s, int c, size_t n)
 {
-	unsigned int index;
-	unsigned char *memory = s, value = c;
+	unsigned int ui;
 
-	for (index = 0; index < n; index++)
-		memory[index] = value;
-	return (memory);
+	while (ui < n)
+	{
+		s[ui] = c;
+		ui++;
+	}
+	return (s);
 }
