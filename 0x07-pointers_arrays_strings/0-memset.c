@@ -12,6 +12,7 @@
 char *_memset(char *s, char c, unsigned int n)
 {
 int x;
+
 for (; n > 0; x++)
 {
 s[x] = c;
