@@ -10,7 +10,7 @@
  * Return: a pointer is returned of @s
  */
 
-void *_memset(char *s, char c, unsigned int n)
+char *_memset(char *s, char c, unsigned int n)
 {
 	unsigned int ui;
 
