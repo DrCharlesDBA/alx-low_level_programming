@@ -40,3 +40,27 @@ int _atoi(char *s)
 		return (0);
 	return (n);
 }
+/**
+ * main - multiplies two numbers
+ * @argc: number of arguments
+ * @argv: array of arguments
+ *
+ * Return: 0 on success or 1 on error
+ */
+int main(int argc, char *argv[])
+{
+int result, a, b;
+
+if (argc < 3 || argc > 3)
+{
+printf("Error\n");
+return (1);
+}
+
+a = _atoi(argv[1]);
+b = _atoi(argv[2]);
+result = a *b;
+
+printf("%d\n", result);
+return (0);
+}
