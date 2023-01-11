@@ -3,7 +3,7 @@
 
 /**
  * strtow - splits a string into word
- * str: char
+ * @str: char
  * Description - function program that splis a string
  * Return: char
  */
