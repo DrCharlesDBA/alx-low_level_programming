@@ -1,22 +1,28 @@
-2. Add node
-mandatory
+11. crackme5
+#advanced
 Score: 0.0% (Checks completed: 0.0%)
-Write a function that adds a new node at the beginning of a dlistint_t list.
+Write a keygen for crackme5.
 
-Prototype: dlistint_t *add_dnodeint(dlistint_t **head, const int n);
-Return: the address of the new element, or NULL if it failed
+Usage of the crackme: ./crackme5 username key
+The crackme will segfault if you do not enter the correct key for the user
+Usage for your keygen: ./keygen5 username
+Your keygen should print a valid key for the username
 
-3. Add node at the end
-mandatory
+10. Palindromes
+#advanced
 Score: 0.0% (Checks completed: 0.0%)
-Write a function that adds a new node at the end of a dlistint_t list.
+A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 
-Prototype: dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
-Return: the address of the new element, or NULL if it failed
+Find the largest palindrome made from the product of two 3-digit numbers.
 
-4. Free list
-mandatory
+Save the result in the file 102-result
+Your file should contain the exact result, no new line, no extra space
+
+9. Crackme4
+#advanced
 Score: 0.0% (Checks completed: 0.0%)
-Write a function that frees a dlistint_t list.
+Find the password for crackme4.
 
-Prototype: void free_dlistint(dlistint_t *head);
+Save the password in the file 100-password
+Your file should contain the exact password, no new line, no extra space
+Hint: The program prints “OK” when the password is correct
