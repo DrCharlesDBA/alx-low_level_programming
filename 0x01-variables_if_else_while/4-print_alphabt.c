@@ -1,19 +1,22 @@
-#include <stdio.h> 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 /**
- * main - block
- * Description: get a random number and check its
- * Return: 0
+ * main - Prints the alphabet without q and e.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c = 'a';
-	while (c <= 'z')
+	int i;
+
+	for (i = 97; i < 123; i++)
 	{
-		if(c != 'e' && c != 'q')
+		if (i != 101 && i != 113)
 		{
-			putchar(c);
+			putchar(i);
 		}
-		c++;
 	}
 	putchar('\n');
 	return (0);

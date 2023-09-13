@@ -1,2 +1,1 @@
-0x08. C - Recursion
-test git push
+0x07-pointers_arrays_strings

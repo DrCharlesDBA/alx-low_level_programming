@@ -1,13 +1,13 @@
-#include <stdio.h>
 #include <unistd.h>
 /**
- * main - prints exactly and that piece of art is useful
+ * main - Entry point
  *
- * Return: is 1
+ * Return: Always 1 (Success)
  */
-
 int main(void)
 {
-	write(1, "and that piece of art is useful\" - Dora Korpa, 2015-10-19\n", 59);
+	char str1[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(2, str1, 59);
 	return (1);
 }

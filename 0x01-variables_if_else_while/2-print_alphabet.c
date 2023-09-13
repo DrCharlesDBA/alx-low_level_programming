@@ -1,19 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
- * main - main block
- * Description: Get a random it with 5
- * Return: 0
+ * main - Print the alphabet
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c = 'a';
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	while (c <= 'z')
+	for (i = 0; i < 26; i++)
 	{
-		putchar(c);
-		c++;
+		putchar(alp[i]);
 	}
 	putchar('\n');
 	return (0);
 }
+

@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strspn -  function that gets the length of a prefix substring
- * @s: this is a char
- * @accept: this is made out of accept
- * Return: the n value is returned
+ * _strspn - Entry point
+ * @s: input
+ * @accept: input
+ * Return: Always 0 (Success)
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -26,3 +26,4 @@ unsigned int _strspn(char *s, char *accept)
 	}
 	return (n);
 }
+

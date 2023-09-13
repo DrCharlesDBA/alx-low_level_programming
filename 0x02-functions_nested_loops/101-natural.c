@@ -1,30 +1,20 @@
 #include <stdio.h>
 
 /**
- * main -  list all the natural numbers below 10
- * Description: multiples between 0 and  1024
- * Return: 0
+ * main - Prints natural numbers below 1024 that are
+ * multiplies of 3 or 5
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-	int start_num, end_num, total;
+	int a, b;
 
-	end_num = 1024;
-	total = 0;
-
-	for (start_num = 0; start_num < end_num; start_num++)
+	for (a = 1; a < 1024; a++)
 	{
-		if ((start_num % 3 == 0) || (start_num % 5 == 0))
-		{
-			total = total + start_num;
-		}
-		else
-		{
-			continue;
-		}
+		if ((a % 3) == 0 || (a % 5) == 0)
+			b += a;
 	}
-	printf("%d", total);
-	printf("\n");
-
+	printf("%d\n", b);
 	return (0);
 }

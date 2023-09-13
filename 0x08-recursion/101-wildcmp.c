@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * wildcmp - compares two strings and returns 1
- * @s1: 1st parameter of data type char
- * @s2: 2nd parameter of data type char
- * Return: is Always 0
+ * wildcmp - Compare strings
+ * @s1: pointer to string params
+ * @s2: pointer to string params
+ * Return: 0
  */
 
 int wildcmp(char *s1, char *s2)
@@ -17,6 +17,7 @@ int wildcmp(char *s1, char *s2)
 		}
 		return (*s2 == '\0');
 	}
+
 	if (*s2 == '*')
 	{
 		return (wildcmp(s1 + 1, s2) || wildcmp(s1, s2 + 1));
@@ -27,3 +28,4 @@ int wildcmp(char *s1, char *s2)
 	}
 	return (0);
 }
+

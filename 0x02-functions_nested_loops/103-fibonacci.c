@@ -1,27 +1,28 @@
 #include <stdio.h>
 
 /**
- * main - prints the sum of the even-valued terms
- * Return: void
+ * main - Prints the add of the even-valued
+ * fibonacci numbers.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-	unsigned long fiboA = 0, fiboB = 1, fiboX;
-	float fibosum;
+	long int n1, n2, fn, afn;
 
-	while (1)
+	n1 = 1;
+	n2 = 2;
+	fn = afn = 0;
+	while (fn <= 4000000)
 	{
-		fiboX = fiboA + fiboB;
-		if (fiboX > 4000000)
-			break;
-
-		if ((fiboX % 2) == 0)
-			fibosum += fiboX;
-
-		fiboA = fiboB;
-		fiboB = fiboX;
+		fn = n1 + n2;
+		n1 = n2;
+		n2 = fn;
+		if ((n1 % 2) == 0)
+		{
+			afn += n1;
+		}
 	}
-	printf("%.0f\n", fibosum);
-
+	printf("%ld\n", afn);
 	return (0);
 }
